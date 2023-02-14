@@ -1,0 +1,11 @@
+name: HardwareQuestionare
+version: '${project.version}'
+main: me.majnc.hardwarequestionare.HardwareQuestionare
+api-version: 1.19
+commands:
+  start:
+    description: Starts Quiz
+    usage: /start
+  countdown:
+    description: internal for plugin
+    usage: /countdown
